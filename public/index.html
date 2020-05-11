@@ -5,15 +5,15 @@
     <title>Real Time Chat</title>
   </head>
   <body>
-    <script defer src="http://loclahost:3000/socket.io/socket.io.js" charset="utf-8"></script>
-    <script src="realtimechat.js" charset="utf-8"></script>
+    <script src="/socket.io/socket.io.js"></script>
     <div id="container">
       <div id="msg-container"></div>
-      <form id="textbox">
-        <input type="text" id="msg-input" >
+      <form id="chat-input-form">
+        <input type="text" id="msgInput" >
         <button type="submit" id="btn-send">Send</button>
         </form>
     </div>
 
+<script src="/js/main.js"></script>
   </body>
 </html>
