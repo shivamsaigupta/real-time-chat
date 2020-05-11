@@ -1,0 +1,25 @@
+{
+  "name": "real-time-chat",
+  "version": "1.0.0",
+  "description": "Realtime chat using Socket.io and Express.js",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamsaigupta/real-time-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamsaigupta/real-time-chat/issues"
+  },
+  "homepage": "https://github.com/shivamsaigupta/real-time-chat#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
